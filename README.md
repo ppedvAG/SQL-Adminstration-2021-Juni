@@ -25,3 +25,12 @@
 
 ## Backup Restore
 	* Backupmethoden
+	* Wiederherstellungsmodel
+	* Snapshot
+	* Restorefälle
+	* Backupplan (Wartungsplan)
+
+## Security
+	* Logins vs User
+	* Rollen
+	* Schema

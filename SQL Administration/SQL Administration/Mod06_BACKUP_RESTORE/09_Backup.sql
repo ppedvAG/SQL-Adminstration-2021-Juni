@@ -64,6 +64,8 @@ Wie hoch darf der Datenverlust sein max in Zeit
 Wie lange darf die DB ausfallen  in Zeit
 
 
+
+
 Wiederhserstellungmodel:
 USE [master]
 GO
@@ -230,4 +232,65 @@ CREATE DATABASE [Northwind] ON
 ( FILENAME = N'D:\_HRDB\NwindHotData.ndf' )
  FOR ATTACH
 GO
+
+
+--Wenn wir wissen würden, dass etwasa passiert?!
+--SP.. vorher Sicherung
+
+
+
+--DB 100 GB Größe
+--> Backup DB --> erscheint als weitere DB2.. Ist lesbar, aber nicht beschreibbar
+
+--> Backup dauert nur sehr kurze Zeit
+
+--> DB2 braucht wohl 100GB ..aber auf HDD nur 10GB frei... klappt!
+--> DB2 braucht wohl 100GB ..aber auf HDD nur 1GB frei... klappt!
+--> DB2 braucht wohl 100GB ..aber auf HDD nur 1MB frei... klappt! 128kb--Idee Referenz
+
+
+
+--SNAPSHOT
+
+
+
+
+--Was wenn die Zeit zum Restore nicht ausreicht (siehe max Ausfallzeit)
+--HADR Hochverfügbarkeit
+	--LogShipping
+	--Spiegeln
+	--Cluster
+	--AlwysOnAVG
+	--Replikation (bidirektional syncen)
+
+
+
+--Plan für Sicherung
+
+--Größe der DB: 200GB
+--Arbeitszeiten: Mo bis Fr  7 -20 Uhr
+
+--max Datenverlust in Zeit: 5min
+--max Ausfallzeit in Zeit:  15min
+
+--geringtmöglicher Datenverlust: vollständiges Wiederherstellungsmodel
+
+
+--V: 1x pro Tag (mo bis Fr)... Uhrzeit: 23 Uhr
+--T: alle 5min T (Mo bis Fr)   Uhrzeit:7:05 bis 20:05
+--D: alle 15min
+
+--best way.. Wartungsplan
+
+
+
+
+
+
+
+
+
+
+
+
 
