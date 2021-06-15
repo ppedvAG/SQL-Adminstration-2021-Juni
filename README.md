@@ -33,4 +33,4 @@
 ## Security
 	* Logins vs User
 	* Rollen
-	* Schema
+	* Schemas
