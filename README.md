@@ -34,3 +34,18 @@
 	* Logins vs User
 	* Rollen
 	* Schemas
+
+## Contained DB
+
+## Logins übertrsgen
+
+## Indizes
+	* Typen
+	* Wartung
+	* Optimierung
+
+## Monitoring
+	* DMV
+	* Perfmon
+	* DTA
+	* Profiler

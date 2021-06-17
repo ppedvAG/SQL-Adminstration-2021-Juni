@@ -1,0 +1,18 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SQL Administration",
+    "\\SQL Administration\\SQL Administration",
+    "\\SQL Administration\\SQL Administration\\MOd01_Installation",
+    "\\SQL Administration\\SQL Administration\\Mod02_FirstSettings",
+    "\\SQL Administration\\SQL Administration\\Mod03_SystemDBs",
+    "\\SQL Administration\\SQL Administration\\Mod04_DBDesign",
+    "\\SQL Administration\\SQL Administration\\Mod05_SQLAgent",
+    "\\SQL Administration\\SQL Administration\\Mod06_BACKUP_RESTORE",
+    "\\SQL Administration\\SQL Administration\\Mod07_Security",
+    "\\SQL Administration\\SQL Administration\\Mod08_Monitoring",
+    "\\SQL Administration\\SQL Administration\\Mod09_Indizes"
+  ],
+  "SelectedNode": "\\SQL Administration\\SQL Administration\\Mod08_Monitoring\\12_Monitoring.sql",
+  "PreviewInSolutionExplorer": false
+}
